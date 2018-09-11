@@ -1,0 +1,47 @@
+<h1>Completed Workouts</h1>
+<p>{{results}}</p>
+<table>
+	<tr>
+		<th>Exercise Name</th>
+		<th>Number of Reps</th>
+		<th>Amount of Weight</th>
+		<th>Date Completed</th>
+		<th>Unit of Weight</th>
+		<th>Edit Row</th>
+		<th>Delete Row</th>
+	</tr>
+
+</table>
+<div>
+    <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+      <legend>Add a Row</legend>
+      <label> Exercise Name:
+        <input type="text" name="name_input" size="25" maxlength="100" >
+      </label>
+      <br />
+      <label> Number of Reps:
+          <input type="number" name="reps_input" size="25" maxlength="100" >
+      </label>
+      <br />
+      <br />
+      <label> Amount of Weight:
+          <input type="number" name="weight_input" size="25" maxlength="100" >
+      </label>
+      <br />
+      <br />
+      <label> Date Completed (use format yyyy-mm-dd):
+          <input type="text" name="date_input" size="25" maxlength="100" >
+      </label>
+      <br />
+      <br />
+      <label> Unit of Weight (1 for lbs 0 for kg):
+          <input type="number" name="lbs_input" size="25" maxlength="100" >
+      </label>
+      <br />
+
+      <br />
+        <input type="submit" value="Submit" id="submitAdd">
+      <br />
+    </form>
+
+</div>

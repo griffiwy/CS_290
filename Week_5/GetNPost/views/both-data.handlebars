@@ -1,0 +1,14 @@
+<h1>Here is the data you sent via a GET request:  </h1>
+<ul>
+  {{#each getDataList}}
+    <li>{{this.name}}: {{this.value}}
+  {{/each}}
+</ul>
+
+<h1>Here is the data you sent via a POST request:  </h1>
+<ul>
+  {{#each postDataList}}
+    <li>{{this.name}}: {{this.value}}
+  {{/each}}
+</ul>
+

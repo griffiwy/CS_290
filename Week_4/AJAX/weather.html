@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="weather.js"></script>
+	</head>
+	<body>
+	<form>
+		<fieldset>
+			<legend>Search By Zip Code</legend>
+			<label for="zipI">Zip</label>
+			<input type="text" name="zipI" id="zipI">
+			<input type="submit" id="zipSubmit">
+		</fieldset>
+		<fieldset>
+			<legend>Search By City</legend>
+			<label for="cityI">City</label>
+			<input type="text" name="cityI" id="cityI">
+			<input type="submit" id="citySubmit">
+		</fieldset>
+	</form>
+
+	<div>
+		<h2>Results</h2>
+		<ul>
+			<li><span>City:      </span><span id="theCity"></span></li>
+			<li><span>Temp in C: </span><span id="theTemp"></span></li>
+			<li><span>Humidity:  </span><span id="theHumi"></span></li>
+		</ul>
+	</div>
+	</body>
+</html>
+
+
+

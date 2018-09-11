@@ -1,0 +1,42 @@
+table{
+    border-style:solid;
+}
+
+th, td{
+    border-style:solid;
+}
+
+#A{
+  background:grey;
+}
+
+#B{
+  background:cyan;
+}
+
+#outer-content{
+    background-color:pink;
+    width:75%;
+    height:20px;
+    padding:10px;
+    margin-top:20px;
+}
+
+#inner-content{
+    background-color:blue;
+    width:75%;
+    height:20px;
+    margin:auto;
+    text-align:center;
+    color:white;
+
+}
+
+form{
+    border-style:dashed;
+    padding:10px;
+}
+
+section{
+    border-style:double;
+}
